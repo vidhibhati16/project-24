@@ -8,6 +8,11 @@ class paper{
             'density': 1.2
         }
  
+        this.x=x;
+		this.y=y;
+		this.r=r
+        
+        //correct synatx is this.body=Bodies.circle(this.x, this.y, this.r/2, options)
         this.body = Bodies.ellipse(x, y, 10, 10, options);
         this.width = 10;
         this.height = 10;
